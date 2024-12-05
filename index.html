@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -12,7 +17,7 @@
     <!-- header -->
     <header class="header">
         <nav>
-            <div class="nav_wrapper">
+            <div class="nav_wrapper container">
                 <a title="logo" href="#" class="nav_logo">
                     <span class="logo">NhaTroong</span>
                 </a>
@@ -24,7 +29,7 @@
                 </ul>
                 <div class="nav_action">
                     <a title="đăng nhập" href="#">Đăng nhập</a>
-                    <a title="đăng ký" href="#">Đăng ký</a>
+                    <a title="đăng ký" class="register" href="#">Đăng ký</a>
                 </div>
                 <select class="nav_lang">
                     <option>VI</option>
@@ -35,7 +40,7 @@
     </header>
     <!-- end header -->
 
-    <main class="main_container">
+    <main class="container">
         <!-- hero section -->
         <section class="hero_section">
             <div class="content">
@@ -43,23 +48,20 @@
                     Một trong những vịnh biển đẹp nhất thế giới
                 </p>
                 <h1 class="content_tit">
-                    Nha Trang, hòn ngọc mới của vùng Viễn Đông
+                    Nha Trang, hòn ngọc vùng Viễn Đông
                 </h1>
                 <p class="content_text">
-                    Đây cũng được công nhận là một trong những vịnh biển đẹp nhất thế giới với thành phố êm ả nằm ngay
-                    bên
-                    bờ biển, du lịch Nha Trang bạn sẽ được khám phá những món ăn, những địa điểm của miền đất được mệnh
-                    danh
-                    là “xứ Trầm, biển Yến”
+                    Được công nhận một trong những vịnh biển đẹp nhất thế giới, du lịch Nha Trang bạn sẽ được khám phá
+                    những món ăn, những địa điểm”
                 </p>
                 <div class="content_action">
                     <button class="explode">
                         Khám phá ngay
                     </button>
-                    <button class="contact">Liên hệ</button>
+                    <div class="contact"> <img src="images/Play button.png" alt="liên hệ" srcset=""> Liên hệ</div>
                 </div>
             </div>
-            <img src="images/hero.png" alt="du lịch nha trang" class="image">
+            <img src="images/hero.png" alt="du lịch nha trang" class="hero_image">
         </section>
         <!-- end hero section -->
         <!-- service section -->
